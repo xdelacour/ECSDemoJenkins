@@ -16,7 +16,7 @@
 	</style>
 </head>
 <body>
-	<img id="logo" width="200" src="Allianz.png" />
+	<img id="logo" width="200" src="AWS_logo.png" />
 	<h1><?php echo "Hello ".($_ENV["NAME"]?$_ENV["NAME"]:"world")."!"; ?></h1>
 	<?php if($_ENV["HOSTNAME"]) {?><h3>My hostname is <?php echo $_ENV["HOSTNAME"]; ?></h3><?php } ?>
 	<?php
